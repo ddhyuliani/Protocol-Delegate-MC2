@@ -29,7 +29,6 @@ class SecondViewController: UIViewController {
     }
 
     @IBAction func lightUpButton(_ sender: Any) {
-        
         //masih force unwrap
         //when the button is pressed, it will pass the data(job) to the 1st viewcontroller
         selectionDelegate?.didSelectRoom(roomName: selectedLabel.text!, image: UIImage(named: "on")!)
